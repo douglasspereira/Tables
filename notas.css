@@ -1,0 +1,42 @@
+
+body {
+    background-color:silver;
+}
+
+table {
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+
+td, th {
+    border: 4px solid green;
+    text-align: center;
+}
+
+div.abas nav {
+    padding-left: 20px; /* Preencheu 20px de espaço a esquerda, empurrando os botões para a direita */
+}
+
+div.abas nav a {
+    display: inline-block;
+    margin: 5px; /* Cria uma distância entre os botões */
+    border: 4px solid; /* Borda do botão */
+}
+
+div.abas nav a:focus { /* focus marca o botão ao clicar, dá um foco */
+    background:white; /* a cor do foco ao clicar no botão */
+    /* border-bottom: 1px solid white; muda o tamanho e a cor da borda inferior do botão */
+}
+
+div.abas div {
+    background: white;
+    padding: 10px;
+    display: none;
+    /* border-top: 1px; */
+    margin-top: -4px;
+}
+
+div.abas div:target {
+    display: block;
+}
